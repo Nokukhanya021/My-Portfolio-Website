@@ -1,4 +1,5 @@
 My Portfolio
+
 Project Overview
 This portfolio is a fully responsive website designed to showcase my skills, professional certifications, and career journey as an aspiring tech professional. It presents my background in cybersecurity, AI, and programming in a clean, easy-to-navigate format for potential employers, collaborators, and recruiters. Built from scratch with HTML, CSS, and JavaScript, the site reflects modern web design principles and a user-friendly, professional aesthetic.
 
