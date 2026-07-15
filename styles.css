@@ -293,3 +293,43 @@ a:focus-visible, button:focus-visible{
   .hero__readout{grid-template-columns:1fr 1fr;}
   .nav{padding:16px 20px;}
 }
+/* ===========================
+   CERTIFICATION GALLERY
+=========================== */
+
+.certificate-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:24px;
+    margin-top:30px;
+}
+
+.certificate-card{
+    background:#151515;
+    border:1px solid #2c2c2c;
+    border-radius:16px;
+    overflow:hidden;
+    text-decoration:none;
+    color:white;
+    transition:.3s;
+}
+
+.certificate-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 30px rgba(0,255,180,.15);
+}
+
+.certificate-card img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.certificate-card h3{
+    margin:18px 18px 6px;
+}
+
+.certificate-card p{
+    margin:0 18px 18px;
+    color:#8ab4f8;
+}
